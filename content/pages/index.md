@@ -26,7 +26,7 @@ sections:
         textAlign: center
     title:
       type: TitleBlock
-      text: This Is A Big Headline
+      text: ''
       color: text-dark
   - type: GenericSection
     media:
