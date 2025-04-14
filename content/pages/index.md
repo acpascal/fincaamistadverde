@@ -29,7 +29,9 @@ sections:
       url: /images/logo-dark.svg
       altText: Fun feature preview
       type: ImageBlock
-    subtitle: High atop the cliffs of Big Sur, the striking views and otherworldly serenity can’t help but stir your soul. Find your calm, and so much more.
+    subtitle: >-
+      High atop the cliffs of Big Sur, the striking views and otherworldly
+      serenity can’t help but stir your soul. Find your calm, and so much more.
     colors: bg-emerald-fg-light
     styles:
       self:
@@ -63,7 +65,46 @@ sections:
     items:
       - title: Coast House
         text: >-
-          With a circular design that mirrors the surrounding redwood trees, Coast Houses offer the chance to admire the Pacific. Curl up indoors by the fireplace or outdoors on the deck with views of the ocean and neighboring forest.
+          With a circular design that mirrors the surrounding redwood trees,
+          Coast Houses offer the chance to admire the Pacific. Curl up indoors
+          by the fireplace or outdoors on the deck with views of the ocean and
+          neighboring forest.
+        image:
+          url: /images/pool.jpeg
+          altText: Maria Walters
+          styles:
+            self:
+              borderRadius: full
+          type: ImageBlock
+        actions:
+          - label: View Cabin
+            altText: ''
+            url: /
+            showIcon: true
+            icon: arrowRight
+            iconPosition: right
+            style: primary
+            elementId: ''
+            type: Link
+        colors: bg-neutralAlt-fg-dark
+        styles:
+          self:
+            padding:
+              - pt-9
+              - pb-9
+              - pl-9
+              - pr-9
+            textAlign: left
+            borderRadius: large
+            flexDirection: col
+            justifyContent: center
+        type: FeaturedItem
+      - title: Coast House
+        text: >-
+          With a circular design that mirrors the surrounding redwood trees,
+          Coast Houses offer the chance to admire the Pacific. Curl up indoors
+          by the fireplace or outdoors on the deck with views of the ocean and
+          neighboring forest.
         image:
           url: /images/hero2.svg
           altText: Maria Walters
@@ -96,7 +137,10 @@ sections:
         type: FeaturedItem
       - title: Coast House
         text: >-
-          With a circular design that mirrors the surrounding redwood trees, Coast Houses offer the chance to admire the Pacific. Curl up indoors by the fireplace or outdoors on the deck with views of the ocean and neighboring forest.
+          With a circular design that mirrors the surrounding redwood trees,
+          Coast Houses offer the chance to admire the Pacific. Curl up indoors
+          by the fireplace or outdoors on the deck with views of the ocean and
+          neighboring forest.
         image:
           url: /images/hero2.svg
           altText: Maria Walters
@@ -129,40 +173,10 @@ sections:
         type: FeaturedItem
       - title: Coast House
         text: >-
-          With a circular design that mirrors the surrounding redwood trees, Coast Houses offer the chance to admire the Pacific. Curl up indoors by the fireplace or outdoors on the deck with views of the ocean and neighboring forest.
-        image:
-          url: /images/hero2.svg
-          altText: Maria Walters
-          styles:
-            self:
-              borderRadius: full
-          type: ImageBlock
-        actions:
-          - label: View Cabin
-            altText: ''
-            url: /
-            showIcon: true
-            icon: arrowRight
-            iconPosition: right
-            style: primary
-            elementId: ''
-            type: Link
-        colors: bg-neutralAlt-fg-dark
-        styles:
-          self:
-            padding:
-              - pt-9
-              - pb-9
-              - pl-9
-              - pr-9
-            textAlign: left
-            borderRadius: large
-            flexDirection: col
-            justifyContent: center
-        type: FeaturedItem
-      - title: Coast House
-        text: >-
-          With a circular design that mirrors the surrounding redwood trees, Coast Houses offer the chance to admire the Pacific. Curl up indoors by the fireplace or outdoors on the deck with views of the ocean and neighboring forest.
+          With a circular design that mirrors the surrounding redwood trees,
+          Coast Houses offer the chance to admire the Pacific. Curl up indoors
+          by the fireplace or outdoors on the deck with views of the ocean and
+          neighboring forest.
         image:
           url: /images/hero2.svg
           altText: Maria Walters
@@ -207,7 +221,9 @@ sections:
       color: text-dark
       type: TitleBlock
     text: >
-      Sierra Mar restuarant sits high atop the cliffs of Big Sur, offering breathtaking views alongside inspired, artfully-prepared cuisine and a Wine Spectator Grand Award-winning wine list.
+      Sierra Mar restuarant sits high atop the cliffs of Big Sur, offering
+      breathtaking views alongside inspired, artfully-prepared cuisine and a
+      Wine Spectator Grand Award-winning wine list.
     actions:
       - label: Dining Options
         altText: ''
@@ -256,7 +272,9 @@ sections:
     items:
       - title: Activities
         text: >-
-          Heated infinity pools, guided nature walks, yoga, meditation, falconry and more - an array of engaging activities, many of which are complimentary, await.
+          Heated infinity pools, guided nature walks, yoga, meditation, falconry
+          and more - an array of engaging activities, many of which are
+          complimentary, await.
         image:
           url: /images/hero2.svg
           altText: Maria Walters
@@ -289,7 +307,9 @@ sections:
         type: FeaturedItem
       - title: Activities
         text: >-
-          Heated infinity pools, guided nature walks, yoga, meditation, falconry and more - an array of engaging activities, many of which are complimentary, await.
+          Heated infinity pools, guided nature walks, yoga, meditation, falconry
+          and more - an array of engaging activities, many of which are
+          complimentary, await.
         image:
           url: /images/hero2.svg
           altText: Maria Walters
@@ -322,7 +342,9 @@ sections:
         type: FeaturedItem
       - title: Activities
         text: >-
-          Heated infinity pools, guided nature walks, yoga, meditation, falconry and more - an array of engaging activities, many of which are complimentary, await.
+          Heated infinity pools, guided nature walks, yoga, meditation, falconry
+          and more - an array of engaging activities, many of which are
+          complimentary, await.
         image:
           url: /images/hero2.svg
           altText: Maria Walters
@@ -355,7 +377,9 @@ sections:
         type: FeaturedItem
       - title: Activities
         text: >-
-          Heated infinity pools, guided nature walks, yoga, meditation, falconry and more - an array of engaging activities, many of which are complimentary, await.
+          Heated infinity pools, guided nature walks, yoga, meditation, falconry
+          and more - an array of engaging activities, many of which are
+          complimentary, await.
         image:
           url: /images/hero2.svg
           altText: Maria Walters
@@ -400,7 +424,10 @@ sections:
       color: text-dark
       type: TitleBlock
     text: >
-      The Post family worked this land for generations, first as a homestead and then later as a farm. Today it retains much of its original character, with the added distinction of offering visitors a serene getaway and retreat.
+      The Post family worked this land for generations, first as a homestead and
+      then later as a farm. Today it retains much of its original character,
+      with the added distinction of offering visitors a serene getaway and
+      retreat.
     actions:
       - label: Discover the ranch
         altText: ''
@@ -450,7 +477,8 @@ sections:
             justifyContent: center
         type: FeaturedItem
       - title: >-
-          "Design is a plan for arranging elements in such a way as best to accomplish a particular purpose."
+          "Design is a plan for arranging elements in such a way as best to
+          accomplish a particular purpose."
         subtitle: 'John Doe, Company'
         actions: []
         colors: bg-neutralAlt-fg-dark
@@ -467,7 +495,8 @@ sections:
             justifyContent: center
         type: FeaturedItem
       - title: >-
-          "Design is how it works, how it functions. Good design doesn't just make a product aesthetically pleasing, it makes it a pleasure to use."
+          "Design is how it works, how it functions. Good design doesn't just
+          make a product aesthetically pleasing, it makes it a pleasure to use."
         subtitle: 'Maria Walters, Company'
         actions: []
         colors: bg-neutralAlt-fg-dark
