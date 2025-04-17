@@ -300,6 +300,10 @@
             @apply border-dark text-dark;
         }
     }
+
+    .max-h-screen {
+        max-height: 100vh;
+    }
 }
 
 @layer utilities {

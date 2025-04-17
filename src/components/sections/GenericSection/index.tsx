@@ -9,13 +9,29 @@ import Section from '../Section';
 import TitleBlock from '../../blocks/TitleBlock';
 import { Action, Badge } from '../../atoms';
 
+function useIsLargeScreen() {
+    const [isLarge, setIsLarge] = React.useState(false);
+
+    React.useEffect(() => {
+        const checkScreen = () => {
+            setIsLarge(window.innerWidth >= 1024);
+        };
+        checkScreen();
+        window.addEventListener('resize', checkScreen);
+        return () => window.removeEventListener('resize', checkScreen);
+    }, []);
+
+    return isLarge;
+}
+
 export default function GenericSection(props) {
     const { elementId, colors, backgroundImage, badge, title, subtitle, text, actions = [], media, styles = {}, enableAnnotations } = props;
     const flexDirection = styles?.self?.flexDirection ?? 'row';
     const alignItems = styles?.self?.alignItems ?? 'flex-start';
     const hasTextContent = !!(badge?.url || title?.text || subtitle || text || actions.length > 0);
     const hasMedia = !!(media && (media?.url || (media?.fields ?? []).length > 0));
-    const mediaLast = !!(media && media?.goesLast === true);
+    const isLargeScreen = useIsLargeScreen();
+    const mediaLast = isLargeScreen && !!(media && media?.goesLast === true);
     const hasXDirection = flexDirection === 'row' || flexDirection === 'row-reverse';
 
     return (
@@ -44,7 +60,7 @@ export default function GenericSection(props) {
                     <div
                         className={classNames('w-full', 'flex', mapStyles({ justifyContent: styles?.self?.justifyContent ?? 'flex-start' }), {
                             'max-w-sectionBody': media.__metadata.modelName === 'FormBlock',
-                            'lg:w-[57.5%] lg:shrink-0': hasTextContent && hasXDirection,
+                            'lg:w-[50%] lg:shrink-0': hasTextContent && hasXDirection,
                             'lg:mt-10': badge?.label && media.__metadata.modelName === 'FormBlock' && hasXDirection
                         })}
                     >
@@ -80,6 +96,8 @@ export default function GenericSection(props) {
                                 options={{ forceBlock: true, forceWrapper: true }}
                                 className={classNames('sb-markdown', 'sm:text-lg', styles?.text ? mapStyles(styles?.text) : undefined, {
                                     'mt-6': badge?.label || title?.text || subtitle
+                                }, {
+                                    'mb-8': hasMedia && mediaLast === false && actions.length <= 0
                                 })}
                                 {...(enableAnnotations && { 'data-sb-field-path': '.text' })}
                             >
@@ -96,6 +114,9 @@ export default function GenericSection(props) {
                                     'gap-4',
                                     {
                                         'mt-8': badge?.label || title?.text || subtitle || text
+                                    },
+                                    {
+                                        'mb-8': hasMedia && mediaLast === false
                                     }
                                 )}
                                 {...(enableAnnotations && { 'data-sb-field-path': '.actions' })}
@@ -116,7 +137,7 @@ export default function GenericSection(props) {
                     <div
                         className={classNames('w-full', 'flex', mapStyles({ justifyContent: styles?.self?.justifyContent ?? 'flex-start' }), {
                             'max-w-sectionBody': media.__metadata.modelName === 'FormBlock',
-                            'lg:w-[57.5%] lg:shrink-0': hasTextContent && hasXDirection,
+                            'lg:w-[50%] lg:shrink-0': hasTextContent && hasXDirection,
                             'lg:mt-10': badge?.label && media.__metadata.modelName === 'FormBlock' && hasXDirection
                         })}
                     >
