@@ -35,7 +35,7 @@ sections:
       type: ImageBlock
     subtitle: >-
       High atop the cliffs of Big Sur, the striking views and otherworldly
-      serenity can’t help but stir your soul. Find your calm, and so much more.
+      serenity can’t help but stir your soul. Find your calm, and so much less.
     colors: bg-emerald-fg-light
     styles:
       self:
