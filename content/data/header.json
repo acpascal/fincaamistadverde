@@ -52,7 +52,7 @@
             "type": "Link",
             "label": "LOCATION",
             "altText": "",
-            "url": "/",
+            "url": "/location",
             "showIcon": false,
             "icon": "arrowRight",
             "iconPosition": "right",
