@@ -5,7 +5,7 @@ sections:
   - type: GenericSection
     media:
       title: Title of the video
-      url: /images/placeholder-video.mp4
+      url: /images/finca-video.mp4
       controls: false
       aspectRatio: '16:9'
       type: VideoBlock
