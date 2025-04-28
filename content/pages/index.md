@@ -77,7 +77,7 @@ sections:
           by the fireplace or outdoors on the deck with views of the ocean and
           neighboring forest.
         image:
-          url: /images/pool.jpeg
+          url: /images/dce64507-88ba-43ac-8935-a192e5ddb70d.jpg
           altText: Maria Walters
           styles:
             self:
