@@ -11,10 +11,10 @@
         },
         "type": "ImageBlock"
     },
-    "title": "Finca Amistad",
+    "title": "WILD ON THE FARM & Boquete cloud forest lodge",
     "primaryLinks": [
         {
-            "label": "THE FARM",
+            "label": "ABOUT US",
             "altText": "About us",
             "url": "/aboutus",
             "style": "secondary",
@@ -28,7 +28,7 @@
             "type": "Link"
         },
         {
-            "label": "DINE",
+            "label": "HOST TABLE",
             "altText": "Dine page",
             "url": "/dine",
             "style": "secondary",
