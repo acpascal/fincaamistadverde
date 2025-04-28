@@ -242,7 +242,7 @@ sections:
         elementId: ''
         type: Link
     media:
-      url: /images/dine.jpg
+      url: /images/20241218_120642 2.jpg
       altText: Unblock your team boost your time to production preview
       elementId: ''
       type: ImageBlock
