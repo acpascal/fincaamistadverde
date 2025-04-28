@@ -49,7 +49,9 @@ export default function FeaturedItem(props) {
                     <div
                         className={classNames('w-full', {
                             'xs:grow': hasImage && (flexDirection === 'row' || flexDirection === 'row-reversed')
-                        })}
+                        },
+                        styles?.text?.margin ? mapStyles({ margin: styles?.text?.margin }) : undefined,
+                        styles?.text?.padding ? mapStyles({ padding: styles?.text?.padding }) : undefined)}
                     >
                         {tagline && (
                             <p className="text-sm" {...(fieldPath && { 'data-sb-field-path': '.tagline' })}>

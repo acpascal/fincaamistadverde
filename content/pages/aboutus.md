@@ -35,6 +35,16 @@ sections:
       altText: Fun feature preview
       type: ImageBlock
     subtitle: High atop the cliffs of Big Sur, the striking views and otherworldly serenity can’t help but stir your soul. Find your calm, and so much more.
+    actions:
+      - label: Discover the ranch
+        altText: ''
+        url: /
+        showIcon: true
+        icon: arrowRight
+        iconPosition: right
+        style: secondary
+        elementId: ''
+        type: Button
     colors: bg-emerald-fg-light
     styles:
       self:
@@ -94,8 +104,9 @@ sections:
       self:
         alignItems: center
         flexDirection: row
+        justifyContent: center
         padding:
-          - pr-32
+          - px-4
   - type: GenericSection
     title:
       text: Dine Amongst the Clouds
@@ -119,8 +130,9 @@ sections:
       self:
         alignItems: center
         flexDirection: row
+        justifyContent: center
         padding:
-          - pl-32
+          - px-4
 seo:
   metaTitle: About us - The Ranch
   metaDescription: This is the pricing page built with Netlify Create.

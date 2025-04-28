@@ -79,9 +79,6 @@ sections:
         image:
           url: /images/dce64507-88ba-43ac-8935-a192e5ddb70d.jpg
           altText: Maria Walters
-          styles:
-            self:
-              borderRadius: full
           type: ImageBlock
         actions:
           - label: View Cabin
@@ -93,18 +90,18 @@ sections:
             style: primary
             elementId: ''
             type: Link
-        colors: bg-neutralAlt-fg-dark
+        colors: bg-light-fg-dark
         styles:
-          self:
+          text:
             padding:
               - pt-9
               - pb-9
               - pl-9
               - pr-9
+          self:
             textAlign: left
             borderRadius: large
             flexDirection: col
-            justifyContent: center
         type: FeaturedItem
       - title: Coast House
         text: >-
@@ -115,9 +112,6 @@ sections:
         image:
           url: /images/hero2.svg
           altText: Maria Walters
-          styles:
-            self:
-              borderRadius: full
           type: ImageBlock
         actions:
           - label: View Cabin
@@ -129,18 +123,18 @@ sections:
             style: primary
             elementId: ''
             type: Link
-        colors: bg-neutralAlt-fg-dark
+        colors: bg-light-fg-dark
         styles:
-          self:
+          text:
             padding:
               - pt-9
               - pb-9
               - pl-9
               - pr-9
+          self:
             textAlign: left
             borderRadius: large
             flexDirection: col
-            justifyContent: center
         type: FeaturedItem
       - title: Coast House
         text: >-
@@ -151,9 +145,6 @@ sections:
         image:
           url: /images/hero2.svg
           altText: Maria Walters
-          styles:
-            self:
-              borderRadius: full
           type: ImageBlock
         actions:
           - label: View Cabin
@@ -165,18 +156,18 @@ sections:
             style: primary
             elementId: ''
             type: Link
-        colors: bg-neutralAlt-fg-dark
+        colors: bg-light-fg-dark
         styles:
-          self:
+          text:
             padding:
               - pt-9
               - pb-9
               - pl-9
               - pr-9
+          self:
             textAlign: left
             borderRadius: large
             flexDirection: col
-            justifyContent: center
         type: FeaturedItem
       - title: Coast House
         text: >-
@@ -187,9 +178,6 @@ sections:
         image:
           url: /images/hero2.svg
           altText: Maria Walters
-          styles:
-            self:
-              borderRadius: full
           type: ImageBlock
         actions:
           - label: View Cabin
@@ -201,18 +189,18 @@ sections:
             style: primary
             elementId: ''
             type: Link
-        colors: bg-neutralAlt-fg-dark
+        colors: bg-light-fg-dark
         styles:
-          self:
+          text:
             padding:
               - pt-9
               - pb-9
               - pl-9
               - pr-9
+          self:
             textAlign: left
             borderRadius: large
             flexDirection: col
-            justifyContent: center
         type: FeaturedItem
     elementId: null
     variant: next-prev-nav-multiple
@@ -245,6 +233,7 @@ sections:
       url: /images/20241218_120642 2.jpg
       altText: Unblock your team boost your time to production preview
       elementId: ''
+      className:
       type: ImageBlock
     badge:
       label: Dine
@@ -256,8 +245,9 @@ sections:
       self:
         alignItems: center
         flexDirection: row
+        justifyContent: center
         padding:
-          - pr-16
+          - px-4
   - type: CarouselSection
     title:
       text: Experiences
@@ -285,9 +275,6 @@ sections:
         image:
           url: /images/hero2.svg
           altText: Maria Walters
-          styles:
-            self:
-              borderRadius: full
           type: ImageBlock
         actions:
           - label: Learn More
@@ -299,14 +286,15 @@ sections:
             style: primary
             elementId: ''
             type: Link
-        colors: bg-neutralAlt-fg-dark
+        colors: bg-light-fg-dark
         styles:
-          self:
+          text:
             padding:
               - pt-9
               - pb-9
               - pl-9
               - pr-9
+          self:
             textAlign: left
             borderRadius: large
             flexDirection: col
@@ -320,9 +308,6 @@ sections:
         image:
           url: /images/hero2.svg
           altText: Maria Walters
-          styles:
-            self:
-              borderRadius: full
           type: ImageBlock
         actions:
           - label: Learn More
@@ -334,14 +319,15 @@ sections:
             style: primary
             elementId: ''
             type: Link
-        colors: bg-neutralAlt-fg-dark
+        colors: bg-light-fg-dark
         styles:
-          self:
+          text:
             padding:
               - pt-9
               - pb-9
               - pl-9
               - pr-9
+          self:
             textAlign: left
             borderRadius: large
             flexDirection: col
@@ -355,9 +341,6 @@ sections:
         image:
           url: /images/hero2.svg
           altText: Maria Walters
-          styles:
-            self:
-              borderRadius: full
           type: ImageBlock
         actions:
           - label: Learn More
@@ -369,14 +352,15 @@ sections:
             style: primary
             elementId: ''
             type: Link
-        colors: bg-neutralAlt-fg-dark
+        colors: bg-light-fg-dark
         styles:
-          self:
+          text:
             padding:
               - pt-9
               - pb-9
               - pl-9
               - pr-9
+          self:
             textAlign: left
             borderRadius: large
             flexDirection: col
@@ -390,9 +374,6 @@ sections:
         image:
           url: /images/hero2.svg
           altText: Maria Walters
-          styles:
-            self:
-              borderRadius: full
           type: ImageBlock
         actions:
           - label: Learn More
@@ -404,14 +385,15 @@ sections:
             style: primary
             elementId: ''
             type: Link
-        colors: bg-neutralAlt-fg-dark
+        colors: bg-light-fg-dark
         styles:
-          self:
+          text:
             padding:
               - pt-9
               - pb-9
               - pl-9
               - pr-9
+          self:
             textAlign: left
             borderRadius: large
             flexDirection: col
@@ -460,8 +442,9 @@ sections:
       self:
         alignItems: center
         flexDirection: row
+        justifyContent: center
         padding:
-          - pr-16
+          - px-4
   - type: CarouselSection
     subtitle: Featured Reviews
     items:
@@ -470,7 +453,7 @@ sections:
           left to add, but when there is nothing left to take away.”
         subtitle: 'Maria Walters, Company'
         actions: []
-        colors: bg-neutralAlt-fg-dark
+        colors: bg-orange-fg-dark
         styles:
           self:
             padding:
@@ -488,7 +471,7 @@ sections:
           accomplish a particular purpose."
         subtitle: 'John Doe, Company'
         actions: []
-        colors: bg-neutralAlt-fg-dark
+        colors: bg-orange-fg-dark
         styles:
           self:
             padding:
@@ -506,7 +489,7 @@ sections:
           make a product aesthetically pleasing, it makes it a pleasure to use."
         subtitle: 'Maria Walters, Company'
         actions: []
-        colors: bg-neutralAlt-fg-dark
+        colors: bg-orange-fg-dark
         styles:
           self:
             padding:
@@ -524,7 +507,7 @@ sections:
           left to add, but when there is nothing left to take away.”
         subtitle: 'Maria Walters, Company'
         actions: []
-        colors: bg-neutralAlt-fg-dark
+        colors: bg-orange-fg-dark
         styles:
           self:
             padding:
