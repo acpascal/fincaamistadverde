@@ -28,7 +28,7 @@
             "type": "Link"
         },
         {
-            "label": "THE FARM",
+            "label": "HOST TABLE",
             "altText": "Dine page",
             "url": "/dine",
             "style": "secondary",
