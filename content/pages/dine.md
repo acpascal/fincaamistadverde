@@ -29,6 +29,7 @@ sections:
       backgroundRepeat: no-repeat
       opacity: 100
       url: /images/dine.jpg
+    subtitle: Boquete Cloud Forest Lodge
   - type: GenericSection
     media:
       url: /images/logo-dark.svg
