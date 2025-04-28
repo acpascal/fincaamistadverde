@@ -50,7 +50,7 @@ sections:
       In an exceptional location, at 6000 feet elevation and 15 minutes from
       Boquete, enveloped by the cloud forest of Amistad National Park, our 42
       acres organic farm & cloud forest lodge, offers the highest standard to
-      reconnect with nature and vitality.
+      reconnect with nature, serenity and Health.
   - type: CarouselSection
     title:
       text: Stay
