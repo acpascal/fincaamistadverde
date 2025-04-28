@@ -4,8 +4,8 @@ slug: /
 sections:
   - type: GenericSection
     media:
-      title: Finca de la Amistad Verde
-      url: /images/finca-video.mp4
+      title: Title of the video
+      url: /images/placeholder-video.mp4
       controls: false
       aspectRatio: '16:9'
       type: VideoBlock
@@ -15,12 +15,15 @@ sections:
     colors: bg-light-fg-dark
     styles:
       self:
+        flexDirection: col
+        justifyContent: center
         padding:
           - pt-0
           - pl-0
           - pb-0
           - pr-0
-        maxWidth: max-w-screen
+      subtitle:
+        textAlign: center
   - type: GenericSection
     media:
       url: /images/logo-dark.svg

@@ -23,16 +23,7 @@ export default function Section(props) {
             {...getDataAttrs(props)}
         >
             {backgroundImage && <BackgroundImage {...backgroundImage} className="absolute inset-0" />}
-            <div
-                className={classNames(
-                    'w-full',
-                    'mx-auto',
-                    'relative',
-                    styles?.maxWidth ? styles.maxWidth : 'max-w-7xl'
-                )}
-            >
-                {children}
-            </div>
+            <div className="w-full max-w-7xl mx-auto relative">{children}</div>
         </div>
     );
 }
