@@ -70,7 +70,7 @@ sections:
         elementId: ''
         type: Button
     items:
-      - title: Coast House
+      - title: Cloud forest Chalet
         text: >
           Silence, fresh air, magnificent view, here begins a deep detox from
           stress. A chalet in harmony with nature, a beautiful bathroom, and a
