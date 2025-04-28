@@ -3,7 +3,7 @@ title: Dine
 slug: dine
 sections:
   - title:
-      text: Boquete Cloud
+      text: Boquete Cloud Forest Lodge
       color: text-light
       styles:
         self:
