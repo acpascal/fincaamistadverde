@@ -3,7 +3,7 @@ title: Dine
 slug: dine
 sections:
   - title:
-      text: Boquete Cloud Forest Lodge
+      text: Dine
       color: text-light
       styles:
         self:
@@ -29,15 +29,12 @@ sections:
       backgroundRepeat: no-repeat
       opacity: 100
       url: /images/dine.jpg
-    subtitle: Boquete Cloud Forest Lodge
   - type: GenericSection
     media:
       url: /images/logo-dark.svg
       altText: Fun feature preview
       type: ImageBlock
-    subtitle: >-
-      High atop the cliffs of Big Sur, the striking views and otherworldly
-      serenity can’t help but stir your soul. Find your calm, and so much more.
+    subtitle: High atop the cliffs of Big Sur, the striking views and otherworldly serenity can’t help but stir your soul. Find your calm, and so much more.
     colors: bg-emerald-fg-light
     styles:
       self:
@@ -54,13 +51,13 @@ sections:
     actions:
       - label: View All
         altText: ''
-        url: /aboutus/#dine
+        url: '/aboutus/#dine'
         style: secondary
         elementId: ''
         type: Link
       - label: View Some
         altText: ''
-        url: /aboutus/#dine-other
+        url: '/aboutus/#dine-other'
         style: secondary
         elementId: ''
         type: Link
@@ -81,9 +78,7 @@ sections:
       color: text-dark
       type: TitleBlock
     text: >
-      Sierra Mar restuarant sits high atop the cliffs of Big Sur, offering
-      breathtaking views alongside inspired, artfully-prepared cuisine and a
-      Wine Spectator Grand Award-winning wine list.
+      Sierra Mar restuarant sits high atop the cliffs of Big Sur, offering breathtaking views alongside inspired, artfully-prepared cuisine and a Wine Spectator Grand Award-winning wine list.
     media:
       url: /images/dine.jpg
       altText: Unblock your team boost your time to production preview
@@ -107,9 +102,7 @@ sections:
       color: text-dark
       type: TitleBlock
     text: >
-      Sierra Mar restuarant sits high atop the cliffs of Big Sur, offering
-      breathtaking views alongside inspired, artfully-prepared cuisine and a
-      Wine Spectator Grand Award-winning wine list.
+      Sierra Mar restuarant sits high atop the cliffs of Big Sur, offering breathtaking views alongside inspired, artfully-prepared cuisine and a Wine Spectator Grand Award-winning wine list.
     media:
       url: /images/finca.jpeg
       altText: Unblock your team boost your time to production preview
@@ -120,7 +113,7 @@ sections:
       label: Dine
       color: text-primary
       type: Badge
-    elementId: dine
+    elementId: 'dine'
     colors: bg-orange-fg-dark
     styles:
       self:
