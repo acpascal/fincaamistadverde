@@ -71,11 +71,11 @@ sections:
         type: Button
     items:
       - title: Coast House
-        text: >-
-          With a circular design that mirrors the surrounding redwood trees,
-          Coast Houses offer the chance to admire the Pacific. Curl up indoors
-          by the fireplace or outdoors on the deck with views of the ocean and
-          neighboring forest.
+        text: >
+          Silence, fresh air, magnificent view, here begins a deep detox from
+          stress. A chalet in harmony with nature, a beautiful bathroom, and a
+          bed with a comfortable mattress, everything here is order and beauty,
+          luxury, calm and serenity.
         image:
           url: /images/dce64507-88ba-43ac-8935-a192e5ddb70d.jpg
           altText: Maria Walters
