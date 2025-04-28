@@ -3,7 +3,7 @@ title: Dine
 slug: dine
 sections:
   - title:
-      text: DETOX
+      text: Boquete Cloud
       color: text-light
       styles:
         self:
