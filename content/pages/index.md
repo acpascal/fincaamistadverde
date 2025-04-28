@@ -5,7 +5,7 @@ sections:
   - type: GenericSection
     media:
       title: Finca de la Amistad Verde
-      url: https://www.youtube.com/watch?v=qQnjBXCXJEg
+      url: /images/finca-video.mp4
       controls: false
       aspectRatio: '16:9'
       type: VideoBlock
